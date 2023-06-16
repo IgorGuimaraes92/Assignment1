@@ -1,0 +1,45 @@
+body {
+  background-image: url('/igor/img/hog.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  }
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #be3a3a;
+  opacity: 0.8;
+  margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(187, 177, 177, 0.3);
+  text-align: center;
+  }
+
+  .form-group {
+  margin-bottom: 20px;
+  text-align: center;
+  }
+
+  .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+      text-align: center;
+  }
+
+.form-group input {
+   width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  text-align: center;
+  }
+
+.form-group input[type="submit"] {
+  background-color: #4CAF50;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+}
